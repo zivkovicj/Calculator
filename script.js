@@ -15,5 +15,19 @@ const add = document.getElementById('add');
 const divide = document.getElementById('divide');
 const multiply = document.getElementById('multiply');
 const switchToNeg = document.getElementById('switch');
-const printHere = document.getElementsByClassName('screen');
+const printHere = document.getElementById('screen');
+const clear = document.getElementById('clear');
+const number = document.querySelectorAll('.numbers div');
 
+// number.addEventListener("click", () => {
+//         printHere.innerHTML = '0';
+//         console.log('test');
+// })
+
+// clear.addEventListener("click", () => {
+//     printHere.innerHTML = " ";
+//     console.log('test');
+// })
+
+// console.log('test');
+// printHere.innerHTML = 'testing!';
