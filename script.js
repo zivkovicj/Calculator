@@ -17,17 +17,33 @@ const multiply = document.getElementById('multiply');
 const switchToNeg = document.getElementById('switch');
 const printHere = document.getElementById('screen');
 const clear = document.getElementById('clear');
-const number = document.querySelectorAll('.numbers div');
 
-// number.addEventListener("click", () => {
-//         printHere.innerHTML = '0';
-//         console.log('test');
-// })
+console.log('test');
 
-// clear.addEventListener("click", () => {
-//     printHere.innerHTML = " ";
-//     console.log('test');
-// })
+/* I took this block from the internet trying to see if it was me that was wrong -D
+document.addEventListener("click", myFunction1);
+document.addEventListener("click", myFunction2);
+
+function myFunction1() {
+  document.getElementById("screen").innerHTML += "First function was executed! "
+}
+
+function myFunction2() {
+  document.getElementById("screen").innerHTML += "Second function was executed! "
+}
+*/
+
+/*this is the one that I swore I could make work before. 
+number.addEventListener("click", () => {
+        printHere.innerHTML = '0';
+        console.log('test');
+})
+ This function was going to deleet anything in the box provided I can make something pirnt to it
+clear.addEventListener("click", () => {
+    printHere.innerHTML = " ";
+    console.log('test');
+})
+*/
 
 // console.log('test');
 // printHere.innerHTML = 'testing!';
